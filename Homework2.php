@@ -12,4 +12,7 @@ $userAmountNumber=fgets(STDIN);
     echo "Сума аргументів $result1";
     $result2=($userNumber1+$userNumber2+$userNumber3)/$userAmountNumber;
     echo "Середнє арифметичне $result2";
+        echo "What is your name?\n";
+        $userName= fgets(STDIN);
+        echo "Hello $userName";
 
